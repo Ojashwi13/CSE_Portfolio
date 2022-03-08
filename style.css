@@ -1,0 +1,29 @@
+h1 {
+    text-align: center; 
+    color:black;
+    background-color: lightskyblue;
+
+}
+
+.grid{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+p,h2{
+    text-align: center;
+    color:black;
+    font-size: 24px;
+}
+
+.footer{
+        text-align: right;
+}
+
+body{
+    background-color: white;
+}
+img:hover{
+    transform:translate(-3%,-3%);
+    opacity: 0.8;
+}
